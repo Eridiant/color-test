@@ -9,7 +9,7 @@ div {
 .square {
     flex: 1 1 30%;
     aspect-ratio: 1 / 1;
-    border: 10px solid #fff;
+    border: 3px solid #fff;
     background-color: inherit;
 }
 .main .hide {
