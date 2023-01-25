@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             error++;
             errors.innerHTML = error;
         }
-        if (error > 5) {
+        if (error > 4) {
             square.removeEventListener('click', listener);
             info.innerHTML = `результат ${different}/50`
         };
