@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (t === differentSquare) {
             err.removeAttribute("class");
             err.classList.add('true');
-            diff.innerHTML = `different`;
+            diff.innerHTML = different;
             reduceDifference();
             changeColor();
         } else {
