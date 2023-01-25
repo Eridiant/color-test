@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const errors = document.querySelector("#errors");
     const err = document.querySelector("#error");
     const info = document.querySelector("#info");
+    const diff = document.querySelector("#diff");
 
     let r, g, b;
     let error = 0;
@@ -34,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (t === differentSquare) {
             err.removeAttribute("class");
             err.classList.add('true');
+            diff.innerHTML = `different`;
             reduceDifference();
             changeColor();
         } else {
